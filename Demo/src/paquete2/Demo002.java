@@ -35,9 +35,9 @@ public class Demo002 {
         opcion = entrada.nextInt();
 
         if (opcion >= 1 && opcion <= 5) {
-            System.out.printf("%s",presentar);
+            System.out.printf("%s\n",presentar);
         } else {
-            System.out.printf("%s",presentar.toUpperCase());
+            System.out.printf("%s\n",presentar.toUpperCase());
         }
 
     }
